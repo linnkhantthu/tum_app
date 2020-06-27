@@ -1,11 +1,14 @@
 package com.example.tumplatform;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
+
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 import com.squareup.picasso.Picasso;
@@ -34,7 +37,7 @@ public class postsAdapter extends RecyclerView.Adapter<postsAdapter.ViewHolder> 
     }
 
     @Override
-    public void onBindViewHolder(@NonNull postsAdapter.ViewHolder viewHolder, int i) {
+    public void onBindViewHolder(@NonNull postsAdapter.ViewHolder viewHolder, final int i) {
         viewHolder.username.setText(posts.get(i).getAuthor().getUsername());
         String tag = formatString(posts.get(i).getTag(), 10);
         viewHolder.tag.setText(tag);
@@ -48,11 +51,23 @@ public class postsAdapter extends RecyclerView.Adapter<postsAdapter.ViewHolder> 
         int numberOfComments = 0;
         for (int j=0; j<comments.size();j++){
             if (comments.get(j).getPost_id()==posts.get(i).getId()){
-                numberOfComments += 1;
+                numberOfComments++;
             }
         }
-        viewHolder.comment.setText(numberOfComments + " Comments");
+        String numCmt;
+        numCmt = numberOfComments + " Comments";
+        viewHolder.comment.setText(numCmt);
         Picasso.get().load("https://infinite-anchorage-45437.herokuapp.com/static/profile_pics/" + posts.get(i).getAuthor().getImage_file()).into(viewHolder.car_image);
+        viewHolder.username.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Context context = v.getContext();
+                Toast.makeText(context,"Username clicked: " + posts.get(i).getAuthor().getUsername(),Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(context, Profile.class);
+                intent.putExtra("user_id", posts.get(i).getUser_id());
+                context.startActivity(intent);
+            }
+        });
     }
 
     @Override
@@ -65,7 +80,6 @@ public class postsAdapter extends RecyclerView.Adapter<postsAdapter.ViewHolder> 
         private TextView title, content, username, date, comment, tag;
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
-
             car_image = (ImageView)itemView.findViewById(R.id.user_image);
             title = (TextView) itemView.findViewById(R.id.title);
             content = (TextView)itemView.findViewById(R.id.content);

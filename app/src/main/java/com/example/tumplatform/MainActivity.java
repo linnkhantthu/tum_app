@@ -24,7 +24,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         posts_recyclerview=(RecyclerView)findViewById(R.id.posts_recyclerview);
         posts_recyclerview.setLayoutManager(new LinearLayoutManager(this));
 
@@ -59,12 +58,12 @@ public class MainActivity extends AppCompatActivity {
                 posts = new ArrayList<>(response.body());
                 postsAdapter = new postsAdapter(MainActivity.this, posts, comments);
                 posts_recyclerview.setAdapter(postsAdapter);
-                Toast.makeText(MainActivity.this,"Success",Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this,"Post retrieved successfully",Toast.LENGTH_SHORT).show();
             }
 
             @Override
             public void onFailure(Call<List<Posts>> call, Throwable t) {
-                Toast.makeText(MainActivity.this,"Failed",Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this,"Post not retrieved",Toast.LENGTH_SHORT).show();
             }
         });
     }

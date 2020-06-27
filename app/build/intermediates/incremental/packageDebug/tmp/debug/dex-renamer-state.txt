@@ -1,4 +1,4 @@
-#Sat Jun 27 14:00:50 MMT 2020
+#Sat Jun 27 22:23:01 MMT 2020
 base.0=/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex

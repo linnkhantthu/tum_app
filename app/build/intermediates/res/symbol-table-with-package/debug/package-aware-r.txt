@@ -898,6 +898,7 @@ id unchecked
 id uniform
 id up
 id useLogo
+id user_id
 id user_image
 id username
 id withText
@@ -944,6 +945,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
+layout activity_profile
 layout custom_dialog
 layout notification_action
 layout notification_action_tombstone
