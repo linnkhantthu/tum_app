@@ -10,5 +10,7 @@ public interface Api {
     @GET("/home/json")
     Call<List<Posts>> getPosts();
 
+    @GET("/comments/json")
+    Call<List<Comments>> getComments();
 
 }

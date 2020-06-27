@@ -16,6 +16,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class MainActivity extends AppCompatActivity {
 
     ArrayList<Posts> posts=new ArrayList<>();
+    ArrayList<Comments> comments = new ArrayList<>();
     private postsAdapter postsAdapter;
     private RecyclerView posts_recyclerview;
 
@@ -27,23 +28,36 @@ public class MainActivity extends AppCompatActivity {
         posts_recyclerview=(RecyclerView)findViewById(R.id.posts_recyclerview);
         posts_recyclerview.setLayoutManager(new LinearLayoutManager(this));
 
-        getCarsResponse();
+        getResponse();
 
     }
 
-    private void getCarsResponse() {
+    private void getResponse() {
         Retrofit retrofit=new Retrofit.Builder()
-                .baseUrl("https://boiling-basin-67311.herokuapp.com")
+                .baseUrl("https://infinite-anchorage-45437.herokuapp.com")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 
         Api requestInteface=retrofit.create(Api.class);
-        Call<List<Posts>> call=requestInteface.getPosts();
+        Call<List<Posts>> call= requestInteface.getPosts();
+        Call<List<Comments>> callComments = requestInteface.getComments();
+        callComments.enqueue(new Callback<List<Comments>>() {
+            @Override
+            public void onResponse(Call<List<Comments>> call, Response<List<Comments>> response) {
+                comments = new ArrayList<>(response.body());
+                postsAdapter = new postsAdapter(MainActivity.this, posts, comments);
+            }
+
+            @Override
+            public void onFailure(Call<List<Comments>> call, Throwable t) {
+
+            }
+        });
         call.enqueue(new Callback<List<Posts>>() {
             @Override
             public void onResponse(Call<List<Posts>> call, Response<List<Posts>> response) {
                 posts = new ArrayList<>(response.body());
-                postsAdapter = new postsAdapter(MainActivity.this, posts);
+                postsAdapter = new postsAdapter(MainActivity.this, posts, comments);
                 posts_recyclerview.setAdapter(postsAdapter);
                 Toast.makeText(MainActivity.this,"Success",Toast.LENGTH_SHORT).show();
             }

@@ -1,6 +1,11 @@
 package com.example.tumplatform;
 
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
+
 public class Posts {
     private author author;
     private String content;
@@ -30,8 +35,13 @@ public class Posts {
         return content;
     }
 
-    public String getDate_posted() {
-        return date_posted;
+    public String getDate_posted() throws ParseException {
+        //2020-06-26T15:25:11.994451
+        Date f_date = new SimpleDateFormat("yyyy-mm-dd").parse(date_posted);
+        DateFormat dateFormat = new SimpleDateFormat("yyyy-mm-dd");
+        assert f_date != null;
+        String strDate = dateFormat.format(f_date);
+        return strDate;
     }
 
     public int getId() {

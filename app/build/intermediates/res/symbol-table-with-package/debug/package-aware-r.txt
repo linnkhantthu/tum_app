@@ -709,6 +709,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable round
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
@@ -784,16 +785,19 @@ id checkbox
 id checked
 id chronometer
 id collapseActionView
+id comment
 id content
 id contentPanel
 id custom
 id customPanel
+id date
 id decor_content_parent
 id default_activity_button
 id dialog_button
 id dimensions
 id direct
 id disableHome
+id divider
 id edit_query
 id end
 id expand_activities_button
@@ -893,6 +897,7 @@ id uniform
 id up
 id useLogo
 id user_image
+id username
 id withText
 id wrap
 id wrap_content
