@@ -25,7 +25,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:maxLines="1">
                 <TextView
                     android:id="@+id/username"
                     android:layout_width="wrap_content"
@@ -33,10 +34,19 @@
                     android:textStyle="bold" />
 
                 <TextView
+                    android:id="@+id/tag"
+                    android:textColor="#FFFFFF"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/tag_box"
+                    android:padding="1dp"
+                    android:textSize="12sp" />
+
+                <TextView
                     android:id="@+id/date"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:gravity="right" />
+                    android:gravity="end" />
             </LinearLayout>
 
             <View
@@ -64,7 +74,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
                 android:layout_gravity="fill|fill_horizontal"
-                android:background="@drawable/round"
+                android:background="@drawable/round_cmt_box"
                 android:padding="10dp"
                 android:textColor="#FFFFFF" />
 

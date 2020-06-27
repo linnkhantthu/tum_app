@@ -36,6 +36,8 @@ public class postsAdapter extends RecyclerView.Adapter<postsAdapter.ViewHolder> 
     @Override
     public void onBindViewHolder(@NonNull postsAdapter.ViewHolder viewHolder, int i) {
         viewHolder.username.setText(posts.get(i).getAuthor().getUsername());
+        String tag = formatString(posts.get(i).getTag(), 10);
+        viewHolder.tag.setText(tag);
         try {
             viewHolder.date.setText(posts.get(i).getDate_posted());
         } catch (ParseException e) {
@@ -49,7 +51,6 @@ public class postsAdapter extends RecyclerView.Adapter<postsAdapter.ViewHolder> 
                 numberOfComments += 1;
             }
         }
-        //numberOfComments + "Comments"
         viewHolder.comment.setText(numberOfComments + " Comments");
         Picasso.get().load("https://infinite-anchorage-45437.herokuapp.com/static/profile_pics/" + posts.get(i).getAuthor().getImage_file()).into(viewHolder.car_image);
     }
@@ -61,7 +62,7 @@ public class postsAdapter extends RecyclerView.Adapter<postsAdapter.ViewHolder> 
 
     public class ViewHolder extends RecyclerView.ViewHolder {
         private ImageView car_image;
-        private TextView title, content, username, date, comment;
+        private TextView title, content, username, date, comment, tag;
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
 
@@ -71,6 +72,14 @@ public class postsAdapter extends RecyclerView.Adapter<postsAdapter.ViewHolder> 
             username = (TextView)itemView.findViewById(R.id.username);
             date = (TextView)itemView.findViewById(R.id.date);
             comment = (TextView)itemView.findViewById(R.id.comment);
+            tag = (TextView)itemView.findViewById(R.id.tag);
         }
+    }
+
+    private String formatString(String stringToFormat, int STR_MAX_CHAR_COUNT) {
+        if(stringToFormat.length() > STR_MAX_CHAR_COUNT){
+            stringToFormat = stringToFormat.substring(0, STR_MAX_CHAR_COUNT - 1) + "...";
+        }
+        return stringToFormat;
     }
 }

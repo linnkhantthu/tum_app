@@ -10,7 +10,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="264d361f-3725-4bf4-8cc6-ab663091ba22" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -52,8 +51,6 @@
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/androidx/vectordrawable/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/androidx/vectordrawable/R$id.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/androidx/vectordrawable/animated/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/androidx/vectordrawable/animated/R$id.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/androidx/viewpager/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/androidx/viewpager/R$id.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/tumplatform/MainActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/tumplatform/MainActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/tumplatform/Posts.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/tumplatform/Posts.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/tumplatform/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/tumplatform/R$drawable.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/tumplatform/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/tumplatform/R$id.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/tumplatform/R$integer.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/tumplatform/R$integer.class" afterDir="false" />
@@ -67,7 +64,7 @@
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/tumplatform/postsAdapter$ViewHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/tumplatform/postsAdapter$ViewHolder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/tumplatform/postsAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/tumplatform/postsAdapter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable_round.xml.flat" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_posts_list_item.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_posts_list_item.xml.flat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" afterDir="false" />
@@ -84,8 +81,6 @@
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/vectordrawable/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/vectordrawable/R$id.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/vectordrawable/animated/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/vectordrawable/animated/R$id.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/viewpager/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/viewpager/R$id.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/example/tumplatform/MainActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/example/tumplatform/MainActivity.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/example/tumplatform/Posts.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/example/tumplatform/Posts.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/example/tumplatform/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/example/tumplatform/R$id.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/example/tumplatform/R$integer.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/example/tumplatform/R$integer.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/example/tumplatform/R$interpolator.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/example/tumplatform/R$interpolator.dex" afterDir="false" />
@@ -98,11 +93,8 @@
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/example/tumplatform/postsAdapter$ViewHolder.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/example/tumplatform/postsAdapter$ViewHolder.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/example/tumplatform/postsAdapter.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/example/tumplatform/postsAdapter.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tumplatform/Api.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tumplatform/Api.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tumplatform/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tumplatform/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tumplatform/Posts.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tumplatform/Posts.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tumplatform/postsAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tumplatform/postsAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/round_cmt_box.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/posts_list_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/posts_list_item.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -243,30 +235,30 @@
       <screen x="88" y="27" width="1832" height="1053" />
     </state>
     <state x="1270" y="266" width="374" height="582" key="#com.intellij.ide.util.MemberChooser/88.27.1832.1053@88.27.1832.1053" timestamp="1593234515590" />
-    <state x="1045" y="311" width="824" height="491" key="AndroidCreateResourceFileDialog" timestamp="1593236728687">
+    <state x="1045" y="311" width="824" height="491" key="AndroidCreateResourceFileDialog" timestamp="1593240698588">
       <screen x="88" y="27" width="1832" height="1053" />
     </state>
-    <state x="1045" y="311" width="824" height="491" key="AndroidCreateResourceFileDialog/88.27.1832.1053@88.27.1832.1053" timestamp="1593236728687" />
+    <state x="1045" y="311" width="824" height="491" key="AndroidCreateResourceFileDialog/88.27.1832.1053@88.27.1832.1053" timestamp="1593240698588" />
     <state x="787" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1593167882046">
       <screen x="88" y="27" width="1832" height="1053" />
     </state>
     <state x="787" y="311" width="424" height="491" key="FileChooserDialogImpl/88.27.1832.1053@88.27.1832.1053" timestamp="1593167882046" />
-    <state width="1786" height="275" key="GridCell.Tab.0.bottom" timestamp="1593236910884">
+    <state width="1786" height="275" key="GridCell.Tab.0.bottom" timestamp="1593242965741">
       <screen x="88" y="27" width="1832" height="1053" />
     </state>
-    <state width="1786" height="275" key="GridCell.Tab.0.bottom/88.27.1832.1053@88.27.1832.1053" timestamp="1593236910884" />
-    <state width="1786" height="275" key="GridCell.Tab.0.center" timestamp="1593236910883">
+    <state width="1786" height="275" key="GridCell.Tab.0.bottom/88.27.1832.1053@88.27.1832.1053" timestamp="1593242965741" />
+    <state width="1786" height="275" key="GridCell.Tab.0.center" timestamp="1593242965741">
       <screen x="88" y="27" width="1832" height="1053" />
     </state>
-    <state width="1786" height="275" key="GridCell.Tab.0.center/88.27.1832.1053@88.27.1832.1053" timestamp="1593236910883" />
-    <state width="1786" height="275" key="GridCell.Tab.0.left" timestamp="1593236910883">
+    <state width="1786" height="275" key="GridCell.Tab.0.center/88.27.1832.1053@88.27.1832.1053" timestamp="1593242965741" />
+    <state width="1786" height="275" key="GridCell.Tab.0.left" timestamp="1593242965740">
       <screen x="88" y="27" width="1832" height="1053" />
     </state>
-    <state width="1786" height="275" key="GridCell.Tab.0.left/88.27.1832.1053@88.27.1832.1053" timestamp="1593236910883" />
-    <state width="1786" height="275" key="GridCell.Tab.0.right" timestamp="1593236910883">
+    <state width="1786" height="275" key="GridCell.Tab.0.left/88.27.1832.1053@88.27.1832.1053" timestamp="1593242965740" />
+    <state width="1786" height="275" key="GridCell.Tab.0.right" timestamp="1593242965741">
       <screen x="88" y="27" width="1832" height="1053" />
     </state>
-    <state width="1786" height="275" key="GridCell.Tab.0.right/88.27.1832.1053@88.27.1832.1053" timestamp="1593236910883" />
+    <state width="1786" height="275" key="GridCell.Tab.0.right/88.27.1832.1053@88.27.1832.1053" timestamp="1593242965741" />
     <state x="493" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1593161690090">
       <screen x="88" y="27" width="1832" height="1053" />
     </state>
