@@ -17,14 +17,13 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/NsRHQRkfIpTcrp_gBUEutl6gCrE=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/NsRHQRkfIpTcrp_gBUEutl6gCrE=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/tumplatform/MainActivity$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/tumplatform/MainActivity$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/androidx/core/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/androidx/core/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/tumplatform/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/tumplatform/R$id.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/tumplatform/R$layout.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/tumplatform/R$layout.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/tumplatform/R$mipmap.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/tumplatform/R$mipmap.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/tumplatform/R$string.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/tumplatform/R$string.class" afterDir="false" />
@@ -32,17 +31,12 @@
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/tumplatform/R$styleable.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/tumplatform/R$styleable.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/tumplatform/R$xml.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/tumplatform/R$xml.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/tumplatform/postsAdapter$ViewHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/tumplatform/postsAdapter$ViewHolder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/tumplatform/postsAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/tumplatform/postsAdapter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_posts_list_item.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_posts_list_item.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/example/tumplatform/MainActivity$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/example/tumplatform/MainActivity$2.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/example/tumplatform/postsAdapter$ViewHolder.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/example/tumplatform/postsAdapter$ViewHolder.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/example/tumplatform/postsAdapter.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/example/tumplatform/postsAdapter.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tumplatform/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tumplatform/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tumplatform/postsAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tumplatform/postsAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/posts_list_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/posts_list_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tumplatform/Api.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tumplatform/Api.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tumplatform/Profile.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tumplatform/Profile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_profile.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,8 +60,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="resourceFile" />
-        <option value="layoutResourceFile" />
         <option value="Class" />
+        <option value="layoutResourceFile" />
       </list>
     </option>
   </component>
@@ -182,34 +176,38 @@
       <screen x="88" y="27" width="1832" height="1053" />
     </state>
     <state x="960" y="288" width="950" height="537" key="#PSD/88.27.1832.1053@88.27.1832.1053" timestamp="1593162785543" />
-    <state x="1270" y="266" width="374" height="582" key="#com.intellij.ide.util.MemberChooser" timestamp="1593234515590">
+    <state x="1270" y="266" width="374" height="582" key="#com.intellij.ide.util.MemberChooser" timestamp="1593280122422">
       <screen x="88" y="27" width="1832" height="1053" />
     </state>
-    <state x="1270" y="266" width="374" height="582" key="#com.intellij.ide.util.MemberChooser/88.27.1832.1053@88.27.1832.1053" timestamp="1593234515590" />
-    <state x="1045" y="311" width="824" height="491" key="AndroidCreateResourceFileDialog" timestamp="1593271552021">
+    <state x="1270" y="266" width="374" height="582" key="#com.intellij.ide.util.MemberChooser/88.27.1832.1053@88.27.1832.1053" timestamp="1593280122422" />
+    <state x="737" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593280465288">
       <screen x="88" y="27" width="1832" height="1053" />
     </state>
-    <state x="1045" y="311" width="824" height="491" key="AndroidCreateResourceFileDialog/88.27.1832.1053@88.27.1832.1053" timestamp="1593271552021" />
+    <state x="737" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/88.27.1832.1053@88.27.1832.1053" timestamp="1593280465288" />
+    <state x="1045" y="311" width="824" height="491" key="AndroidCreateResourceFileDialog" timestamp="1593280693444">
+      <screen x="88" y="27" width="1832" height="1053" />
+    </state>
+    <state x="1045" y="311" width="824" height="491" key="AndroidCreateResourceFileDialog/88.27.1832.1053@88.27.1832.1053" timestamp="1593280693444" />
     <state x="787" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1593167882046">
       <screen x="88" y="27" width="1832" height="1053" />
     </state>
     <state x="787" y="311" width="424" height="491" key="FileChooserDialogImpl/88.27.1832.1053@88.27.1832.1053" timestamp="1593167882046" />
-    <state width="1786" height="275" key="GridCell.Tab.0.bottom" timestamp="1593272115853">
+    <state width="1786" height="275" key="GridCell.Tab.0.bottom" timestamp="1593273186319">
       <screen x="88" y="27" width="1832" height="1053" />
     </state>
-    <state width="1786" height="275" key="GridCell.Tab.0.bottom/88.27.1832.1053@88.27.1832.1053" timestamp="1593272115853" />
-    <state width="1786" height="275" key="GridCell.Tab.0.center" timestamp="1593272115853">
+    <state width="1786" height="275" key="GridCell.Tab.0.bottom/88.27.1832.1053@88.27.1832.1053" timestamp="1593273186319" />
+    <state width="1786" height="275" key="GridCell.Tab.0.center" timestamp="1593273186319">
       <screen x="88" y="27" width="1832" height="1053" />
     </state>
-    <state width="1786" height="275" key="GridCell.Tab.0.center/88.27.1832.1053@88.27.1832.1053" timestamp="1593272115853" />
-    <state width="1786" height="275" key="GridCell.Tab.0.left" timestamp="1593272115851">
+    <state width="1786" height="275" key="GridCell.Tab.0.center/88.27.1832.1053@88.27.1832.1053" timestamp="1593273186319" />
+    <state width="1786" height="275" key="GridCell.Tab.0.left" timestamp="1593273186319">
       <screen x="88" y="27" width="1832" height="1053" />
     </state>
-    <state width="1786" height="275" key="GridCell.Tab.0.left/88.27.1832.1053@88.27.1832.1053" timestamp="1593272115851" />
-    <state width="1786" height="275" key="GridCell.Tab.0.right" timestamp="1593272115853">
+    <state width="1786" height="275" key="GridCell.Tab.0.left/88.27.1832.1053@88.27.1832.1053" timestamp="1593273186319" />
+    <state width="1786" height="275" key="GridCell.Tab.0.right" timestamp="1593273186319">
       <screen x="88" y="27" width="1832" height="1053" />
     </state>
-    <state width="1786" height="275" key="GridCell.Tab.0.right/88.27.1832.1053@88.27.1832.1053" timestamp="1593272115853" />
+    <state width="1786" height="275" key="GridCell.Tab.0.right/88.27.1832.1053@88.27.1832.1053" timestamp="1593273186319" />
     <state x="493" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1593161690090">
       <screen x="88" y="27" width="1832" height="1053" />
     </state>

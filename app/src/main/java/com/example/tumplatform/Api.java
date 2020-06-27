@@ -4,6 +4,7 @@ import java.util.List;
 
 import retrofit2.Call;
 import retrofit2.http.GET;
+import retrofit2.http.Path;
 
 public interface Api {
 
@@ -12,5 +13,8 @@ public interface Api {
 
     @GET("/comments/json")
     Call<List<Comments>> getComments();
+
+    @GET("/users/json/{user_id}")
+    Call<List<author>> getProfiles(@Path("user_id") int userId);
 
 }
