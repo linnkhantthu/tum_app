@@ -2930,8 +2930,9 @@ public final class R {
     public static final int switch_thumb_material_light=0x7f040056;
     public static final int switch_thumb_normal_material_dark=0x7f040057;
     public static final int switch_thumb_normal_material_light=0x7f040058;
-    public static final int tooltip_background_dark=0x7f040059;
-    public static final int tooltip_background_light=0x7f04005a;
+    public static final int textview_selector=0x7f040059;
+    public static final int tooltip_background_dark=0x7f04005a;
+    public static final int tooltip_background_light=0x7f04005b;
   }
   public static final class dimen {
     public static final int abc_action_bar_content_inset_material=0x7f050000;
@@ -3369,9 +3370,10 @@ public final class R {
     public static final int useLogo=0x7f0700bc;
     public static final int user_image=0x7f0700bd;
     public static final int username=0x7f0700be;
-    public static final int withText=0x7f0700bf;
-    public static final int wrap=0x7f0700c0;
-    public static final int wrap_content=0x7f0700c1;
+    public static final int username_layout=0x7f0700bf;
+    public static final int withText=0x7f0700c0;
+    public static final int wrap=0x7f0700c1;
+    public static final int wrap_content=0x7f0700c2;
   }
   public static final class integer {
     public static final int abc_config_activityDefaultDur=0x7f080000;

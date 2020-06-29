@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -37,7 +38,7 @@ public class postsAdapter extends RecyclerView.Adapter<postsAdapter.ViewHolder> 
     }
 
     @Override
-    public void onBindViewHolder(@NonNull postsAdapter.ViewHolder viewHolder, final int i) {
+    public void onBindViewHolder(@NonNull final postsAdapter.ViewHolder viewHolder, final int i) {
         viewHolder.username.setText(posts.get(i).getAuthor().getUsername());
         String tag = formatString(posts.get(i).getTag(), 13);
         viewHolder.tag.setText(tag);
@@ -58,7 +59,7 @@ public class postsAdapter extends RecyclerView.Adapter<postsAdapter.ViewHolder> 
         numCmt = numberOfComments + " Comments";
         viewHolder.comment.setText(numCmt);
         Picasso.get().load("https://infinite-anchorage-45437.herokuapp.com/static/profile_pics/" + posts.get(i).getAuthor().getImage_file()).into(viewHolder.car_image);
-        viewHolder.username.setOnClickListener(new View.OnClickListener() {
+        viewHolder.username_layout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Context context = v.getContext();
@@ -79,6 +80,7 @@ public class postsAdapter extends RecyclerView.Adapter<postsAdapter.ViewHolder> 
     public class ViewHolder extends RecyclerView.ViewHolder {
         private ImageView car_image;
         private TextView title, content, username, date, comment, tag;
+        private LinearLayout username_layout;
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             car_image = (ImageView)itemView.findViewById(R.id.user_image);
@@ -88,6 +90,7 @@ public class postsAdapter extends RecyclerView.Adapter<postsAdapter.ViewHolder> 
             date = (TextView)itemView.findViewById(R.id.date);
             comment = (TextView)itemView.findViewById(R.id.comment);
             tag = (TextView)itemView.findViewById(R.id.tag);
+            username_layout = (LinearLayout)itemView.findViewById(R.id.username_layout);
         }
     }
 

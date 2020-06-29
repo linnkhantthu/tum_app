@@ -411,8 +411,8 @@ public final class R {
         public static final int switch_thumb_material_light = 0x7f040056;
         public static final int switch_thumb_normal_material_dark = 0x7f040057;
         public static final int switch_thumb_normal_material_light = 0x7f040058;
-        public static final int tooltip_background_dark = 0x7f040059;
-        public static final int tooltip_background_light = 0x7f04005a;
+        public static final int tooltip_background_dark = 0x7f04005a;
+        public static final int tooltip_background_light = 0x7f04005b;
     }
     public static final class dimen {
         private dimen() {}
@@ -791,7 +791,7 @@ public final class R {
         public static final int unchecked = 0x7f0700b9;
         public static final int uniform = 0x7f0700ba;
         public static final int up = 0x7f0700bb;
-        public static final int wrap_content = 0x7f0700c1;
+        public static final int wrap_content = 0x7f0700c2;
     }
     public static final class integer {
         private integer() {}
