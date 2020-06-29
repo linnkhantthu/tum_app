@@ -695,6 +695,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable edit_text
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable notification_action_background
@@ -838,8 +839,10 @@ id packed
 id parent
 id parentPanel
 id percent
+id posts
 id posts_recyclerview
 id profile_recyclerview
+id profile_recyclerview_posts
 id progress_circular
 id progress_horizontal
 id radio
@@ -989,7 +992,10 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string account_info
 string app_name
+string posts
+string profile_pic
 string search_menu_title
 string status_bar_notification_info_overflow
 style AlertDialog_AppCompat

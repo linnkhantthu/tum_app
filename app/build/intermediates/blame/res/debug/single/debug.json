@@ -1304,6 +1304,10 @@
         "source": "/home/linn/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/drawable-v21/abc_action_bar_item_background_material.xml"
     },
     {
+        "merged": "/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/build/intermediates/res/merged/debug/drawable_edit_text.xml.flat",
+        "source": "/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/res/drawable/edit_text.xml"
+    },
+    {
         "merged": "/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
         "source": "/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },

@@ -39,7 +39,7 @@ public class postsAdapter extends RecyclerView.Adapter<postsAdapter.ViewHolder> 
     @Override
     public void onBindViewHolder(@NonNull postsAdapter.ViewHolder viewHolder, final int i) {
         viewHolder.username.setText(posts.get(i).getAuthor().getUsername());
-        String tag = formatString(posts.get(i).getTag(), 10);
+        String tag = formatString(posts.get(i).getTag(), 13);
         viewHolder.tag.setText(tag);
         try {
             viewHolder.date.setText(posts.get(i).getDate_posted());
@@ -62,7 +62,7 @@ public class postsAdapter extends RecyclerView.Adapter<postsAdapter.ViewHolder> 
             @Override
             public void onClick(View v) {
                 Context context = v.getContext();
-                Toast.makeText(context,"Username clicked: " + posts.get(i).getAuthor().getUsername(),Toast.LENGTH_SHORT).show();
+                Toast.makeText(context,"Username clicked: " + posts.get(i).getAuthor().getId(),Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(context, Profile.class);
                 intent.putExtra("user_id", posts.get(i).getUser_id());
                 context.startActivity(intent);
@@ -72,6 +72,7 @@ public class postsAdapter extends RecyclerView.Adapter<postsAdapter.ViewHolder> 
 
     @Override
     public int getItemCount() {
+        //return Math.max(posts.size(), comments.size());
         return posts.size();
     }
 

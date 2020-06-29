@@ -17,4 +17,10 @@ public interface Api {
     @GET("/users/json/{user_id}")
     Call<List<author>> getProfiles(@Path("user_id") int userId);
 
+    @GET("/users/posts/json/{user_id}")
+    Call<List<Posts>> getUserPosts(@Path("user_id") int userId);
+
+    @GET("/comments/json/{user_id}")
+    Call<List<Comments>> getUserComments(@Path("user_id") int userId);
+
 }
