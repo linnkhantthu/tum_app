@@ -22,6 +22,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.tumplatform.CommentActivity" />
         <activity android:name="com.example.tumplatform.Profile" />
         <activity android:name="com.example.tumplatform.MainActivity" >
             <intent-filter>

@@ -26,5 +26,8 @@ public interface Api {
     @GET("/comments/post/json/{post_id}")
     Call<List<Comments>> getCommentsByPostId(@Path("post_id") int post_id);
 
+    @GET("/posts/json/{post_id}")
+    Call<List<Posts>> getPostsByPostId(@Path("post_id") int post_id);
+
 
 }

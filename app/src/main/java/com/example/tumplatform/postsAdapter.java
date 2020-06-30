@@ -1,5 +1,6 @@
 package com.example.tumplatform;
 
+import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
 import android.view.LayoutInflater;
@@ -59,7 +60,8 @@ public class postsAdapter extends RecyclerView.Adapter<postsAdapter.ViewHolder> 
         numCmt = numberOfComments + " Comments";
         viewHolder.comment.setText(numCmt);
         Picasso.get().load("https://infinite-anchorage-45437.herokuapp.com/static/profile_pics/" + posts.get(i).getAuthor().getImage_file()).into(viewHolder.car_image);
-        viewHolder.username_layout.setOnClickListener(new View.OnClickListener() {
+
+        viewHolder.username.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Context context = v.getContext();
@@ -67,6 +69,16 @@ public class postsAdapter extends RecyclerView.Adapter<postsAdapter.ViewHolder> 
                 Intent intent = new Intent(context, Profile.class);
                 intent.putExtra("user_id", posts.get(i).getUser_id());
                 context.startActivity(intent);
+            }
+        });
+        viewHolder.comment.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(context,"Comment Clicked" + posts.get(i).getTitle(),Toast.LENGTH_SHORT).show();
+                Intent intentc = new Intent(context, CommentActivity.class);
+                String post_id = "" + posts.get(i).getId();
+                intentc.putExtra("post_id", post_id);
+                context.startActivity(intentc);
             }
         });
     }

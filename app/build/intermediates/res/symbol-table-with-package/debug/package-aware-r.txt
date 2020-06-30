@@ -789,6 +789,7 @@ id checked
 id chronometer
 id collapseActionView
 id comment
+id comments_recyclerview
 id content
 id contentPanel
 id custom
@@ -950,8 +951,10 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_comment
 layout activity_main
 layout activity_profile
+layout comments_list_item
 layout custom_dialog
 layout notification_action
 layout notification_action_tombstone
