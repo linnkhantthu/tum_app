@@ -19,10 +19,12 @@ import java.util.ArrayList;
 public class commentsAdapter extends RecyclerView.Adapter<commentsAdapter.ViewHolder> {
 
     private ArrayList<Comments> comments = new ArrayList<>();
+    private ArrayList<Posts> posts = new ArrayList<>();
     private Context context;
 
-    public commentsAdapter(Context context, ArrayList<Comments> comments) {
+    public commentsAdapter(Context context, ArrayList<Posts> posts, ArrayList<Comments> comments) {
         this.comments = comments;
+        this.posts = posts;
         this.context = context;
     }
 
