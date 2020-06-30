@@ -6,6 +6,8 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
@@ -24,6 +26,7 @@ public class CommentActivity extends AppCompatActivity {
     private postsAdapter postsAdapter;
     private RecyclerView comments_recyclerview;
     private RecyclerView posts_recyclerview;
+    private SwipeRefreshLayout swipeRefreshLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +40,15 @@ public class CommentActivity extends AppCompatActivity {
         comments_recyclerview = (RecyclerView)findViewById(R.id.comments_recyclerview);
         comments_recyclerview.setLayoutManager(new LinearLayoutManager(this));
         getResponse();
+
+        swipeRefreshLayout = (SwipeRefreshLayout)findViewById(R.id.refresh);
+        swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+            @Override
+            public void onRefresh() {
+                getResponse();
+                swipeRefreshLayout.setRefreshing(false);
+            }
+        });
 
     }
 
@@ -56,6 +68,7 @@ public class CommentActivity extends AppCompatActivity {
                 comments = new ArrayList<>(response.body());
                 commentsAdapter = new commentsAdapter(CommentActivity.this, posts,comments);
                 comments_recyclerview.setAdapter(commentsAdapter);
+                comments_recyclerview.setNestedScrollingEnabled(false);
                 Toast.makeText(CommentActivity.this,"Comments retrieved successfully",Toast.LENGTH_SHORT).show();
             }
 
@@ -83,6 +96,7 @@ public class CommentActivity extends AppCompatActivity {
                 comments = new ArrayList<>(response.body());
                 postsAdapter = new postsAdapter(CommentActivity.this, posts, comments);
                 posts_recyclerview.setAdapter(postsAdapter);
+                posts_recyclerview.setNestedScrollingEnabled(false);
             }
 
             @Override
@@ -96,6 +110,7 @@ public class CommentActivity extends AppCompatActivity {
                 posts = new ArrayList<>(response.body());
                 postsAdapter = new postsAdapter(CommentActivity.this, posts, comments);
                 posts_recyclerview.setAdapter(postsAdapter);
+                posts_recyclerview.setNestedScrollingEnabled(false);
                 Toast.makeText(CommentActivity.this,"Post retrieved successfully",Toast.LENGTH_SHORT).show();
             }
 

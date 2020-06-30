@@ -692,12 +692,12 @@
         "source": "/home/linn/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/drawable-xxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
-        "merged": "/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
-        "source": "/home/linn/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/drawable-xhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/build/intermediates/res/merged/debug/color_textview_selector.xml.flat",
         "source": "/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/res/color/textview_selector.xml"
+    },
+    {
+        "merged": "/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
+        "source": "/home/linn/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/drawable-xhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
         "merged": "/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/build/intermediates/res/merged/debug/anim_btn_radio_to_off_mtrl_ring_outer_animation.xml.flat",
@@ -1316,12 +1316,12 @@
         "source": "/home/linn/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/drawable-mdpi-v4/abc_switch_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/build/intermediates/res/merged/debug/drawable-v21_abc_action_bar_item_background_material.xml.flat",
-        "source": "/home/linn/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/drawable-v21/abc_action_bar_item_background_material.xml"
-    },
-    {
         "merged": "/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/build/intermediates/res/merged/debug/drawable_edit_text.xml.flat",
         "source": "/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/res/drawable/edit_text.xml"
+    },
+    {
+        "merged": "/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/build/intermediates/res/merged/debug/drawable-v21_abc_action_bar_item_background_material.xml.flat",
+        "source": "/home/linn/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/drawable-v21/abc_action_bar_item_background_material.xml"
     },
     {
         "merged": "/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",

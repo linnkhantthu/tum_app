@@ -5,6 +5,8 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
+
 import java.util.ArrayList;
 import java.util.List;
 import retrofit2.Call;
@@ -19,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
     ArrayList<Comments> comments = new ArrayList<>();
     private postsAdapter postsAdapter;
     private RecyclerView posts_recyclerview;
+    private SwipeRefreshLayout swipeRefreshLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,8 +29,16 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         posts_recyclerview=(RecyclerView)findViewById(R.id.posts_recyclerview);
         posts_recyclerview.setLayoutManager(new LinearLayoutManager(this));
-
         getResponse();
+
+        swipeRefreshLayout = (SwipeRefreshLayout)findViewById(R.id.refresh);
+        swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+            @Override
+            public void onRefresh() {
+                getResponse();
+                swipeRefreshLayout.setRefreshing(false);
+            }
+        });
 
     }
 

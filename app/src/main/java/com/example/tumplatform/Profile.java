@@ -3,6 +3,7 @@ package com.example.tumplatform;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -27,23 +28,31 @@ public class Profile extends AppCompatActivity {
     ArrayList<Comments> comments = new ArrayList<>();
     private postsAdapter postsAdapter;
     private profileAdapter profileAdapter;
+    private SwipeRefreshLayout swipeRefreshLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
 
-        //TextView user_id_d = (TextView) findViewById(R.id.user_id);
-        //user_id_d.setText("UserID: " + user_id);
-
         profile_recyclerview=(RecyclerView)findViewById(R.id.profile_recyclerview);
         profile_recyclerview.setLayoutManager(new LinearLayoutManager(this));
-
         getResponse();
 
         profile_recyclerview_posts=(RecyclerView)findViewById(R.id.profile_recyclerview_posts);
         profile_recyclerview_posts.setLayoutManager(new LinearLayoutManager(this));
         getResponsePosts();
+
+        swipeRefreshLayout = (SwipeRefreshLayout)findViewById(R.id.refresh);
+        swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+            @Override
+            public void onRefresh() {
+                getResponse();
+                getResponsePosts();
+                swipeRefreshLayout.setRefreshing(false);
+                swipeRefreshLayout.canChildScrollUp();
+            }
+        });
     }
     private void getResponse() {
         Intent intent = getIntent();
@@ -61,6 +70,7 @@ public class Profile extends AppCompatActivity {
                 author = new ArrayList<>(response.body());
                 profileAdapter = new profileAdapter(Profile.this, author);
                 profile_recyclerview.setAdapter(profileAdapter);
+                profile_recyclerview.setNestedScrollingEnabled(false);
                 Toast.makeText(Profile.this,"User retrieved successfully",Toast.LENGTH_SHORT).show();
             }
 
@@ -88,6 +98,7 @@ public class Profile extends AppCompatActivity {
                 comments = new ArrayList<>(response.body());
                 postsAdapter = new postsAdapter(Profile.this, posts, comments);
                 profile_recyclerview_posts.setAdapter(postsAdapter);
+                profile_recyclerview_posts.setNestedScrollingEnabled(false);
             }
 
             @Override
