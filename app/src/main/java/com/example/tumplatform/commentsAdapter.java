@@ -52,7 +52,8 @@ public class commentsAdapter extends RecyclerView.Adapter<commentsAdapter.ViewHo
                 Context context = v.getContext();
                 Toast.makeText(context,"Username clicked: " + comments.get(i).getAuthor().getId(),Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(context, Profile.class);
-                intent.putExtra("user_id", comments.get(i).getAuthor().getId());
+                String post_id = "" + comments.get(i).getAuthor().getId();
+                intent.putExtra("user_id", post_id);
                 context.startActivity(intent);
             }
         });
