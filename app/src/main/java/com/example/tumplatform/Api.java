@@ -3,14 +3,16 @@ package com.example.tumplatform;
 import java.util.List;
 
 import retrofit2.Call;
+import retrofit2.http.Field;
+import retrofit2.http.FormUrlEncoded;
 import retrofit2.http.GET;
+import retrofit2.http.POST;
 import retrofit2.http.Path;
 
 public interface Api {
 
     @GET("/home/json")
     Call<List<Posts>> getPosts();
-
     @GET("/comments/json")
     Call<List<Comments>> getComments();
 
@@ -29,5 +31,7 @@ public interface Api {
     @GET("/posts/json/{post_id}")
     Call<List<Posts>> getPostsByPostId(@Path("post_id") int post_id);
 
-
+    @FormUrlEncoded
+    @POST("/login/app/")
+    Call<List<author>> getLoginDetails(@Field("email") String email, @Field("password") String password);
 }

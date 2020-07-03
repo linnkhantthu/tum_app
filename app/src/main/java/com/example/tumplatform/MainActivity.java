@@ -1,13 +1,19 @@
 package com.example.tumplatform;
 
+import android.media.Image;
 import android.os.Bundle;
+import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
+import com.squareup.picasso.Picasso;
+
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -22,11 +28,15 @@ public class MainActivity extends AppCompatActivity {
     private postsAdapter postsAdapter;
     private RecyclerView posts_recyclerview;
     private SwipeRefreshLayout swipeRefreshLayout;
+    private SessionManager sessionManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        userDetails();
+
         posts_recyclerview=(RecyclerView)findViewById(R.id.posts_recyclerview);
         posts_recyclerview.setLayoutManager(new LinearLayoutManager(this));
         getResponse();
@@ -77,6 +87,17 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this,"Post not retrieved",Toast.LENGTH_SHORT).show();
             }
         });
+    }
+
+    private void userDetails(){
+        sessionManager = new SessionManager(this);
+        HashMap<String, String> current_user = sessionManager.getUserDetail();
+
+        TextView current_username = (TextView)findViewById(R.id.current_username);
+        ImageView image = (ImageView) findViewById(R.id.user_image);
+
+        current_username.setText(current_user.get("USERNAME"));
+        Picasso.get().load("https://infinite-anchorage-45437.herokuapp.com/static/profile_pics/" + current_user.get("IMAGE_FILE")).into(image);
     }
 
 }

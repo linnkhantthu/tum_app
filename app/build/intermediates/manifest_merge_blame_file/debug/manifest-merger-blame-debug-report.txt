@@ -15,7 +15,7 @@
 11-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:5:22-64
 12
 13    <application
-13-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:7:5-24:19
+13-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:7:5-26:19
 14        android:allowBackup="true"
 14-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:8:9-35
 15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -34,35 +34,51 @@
 22        android:testOnly="true"
 23        android:theme="@style/AppTheme" >
 23-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:14:9-40
-24        <activity android:name="com.example.tumplatform.CommentActivity" />
-24-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:15:9-62
-24-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:15:19-50
-25        <activity android:name="com.example.tumplatform.Profile" />
-25-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:16:9-45
-25-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:16:19-42
-26        <activity android:name="com.example.tumplatform.MainActivity" >
-26-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:17:9-23:20
-26-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:17:19-47
-27            <intent-filter>
-27-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:18:13-22:29
-28                <action android:name="android.intent.action.MAIN" />
-28-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:19:17-69
-28-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:19:25-66
-29
-30                <category android:name="android.intent.category.LAUNCHER" />
-30-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:21:17-77
-30-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:21:27-74
-31            </intent-filter>
-32        </activity>
-33
-34        <provider
-34-->[com.squareup.picasso:picasso:2.71828] /home/linn/.gradle/caches/transforms-2/files-2.1/b50185fa55290ee8fccc06303bb8d24e/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
-35            android:name="com.squareup.picasso.PicassoProvider"
-35-->[com.squareup.picasso:picasso:2.71828] /home/linn/.gradle/caches/transforms-2/files-2.1/b50185fa55290ee8fccc06303bb8d24e/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
-36            android:authorities="com.example.tumplatform.com.squareup.picasso"
-36-->[com.squareup.picasso:picasso:2.71828] /home/linn/.gradle/caches/transforms-2/files-2.1/b50185fa55290ee8fccc06303bb8d24e/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
-37            android:exported="false" />
-37-->[com.squareup.picasso:picasso:2.71828] /home/linn/.gradle/caches/transforms-2/files-2.1/b50185fa55290ee8fccc06303bb8d24e/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
-38    </application>
-39
-40</manifest>
+24        <activity
+24-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:15:9-16:56
+25            android:name="com.example.tumplatform.MainActivity"
+25-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:15:19-47
+26            android:windowSoftInputMode="stateHidden" />
+26-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:16:13-54
+27        <activity android:name="com.example.tumplatform.CommentActivity" />
+27-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:17:9-53
+27-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:17:19-50
+28        <activity android:name="com.example.tumplatform.Profile" />
+28-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:18:9-45
+28-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:18:19-42
+29        <activity android:name="com.example.tumplatform.LoginActivity" >
+29-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:19:9-25:20
+29-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:19:19-48
+30            <intent-filter>
+30-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:20:13-24:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:21:17-69
+31-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:21:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:23:17-77
+33-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:23:27-74
+34            </intent-filter>
+35        </activity>
+36
+37        <provider
+37-->[com.squareup.picasso:picasso:2.71828] /home/linn/.gradle/caches/transforms-2/files-2.1/b50185fa55290ee8fccc06303bb8d24e/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+38            android:name="com.squareup.picasso.PicassoProvider"
+38-->[com.squareup.picasso:picasso:2.71828] /home/linn/.gradle/caches/transforms-2/files-2.1/b50185fa55290ee8fccc06303bb8d24e/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+39            android:authorities="com.example.tumplatform.com.squareup.picasso"
+39-->[com.squareup.picasso:picasso:2.71828] /home/linn/.gradle/caches/transforms-2/files-2.1/b50185fa55290ee8fccc06303bb8d24e/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+40            android:exported="false" />
+40-->[com.squareup.picasso:picasso:2.71828] /home/linn/.gradle/caches/transforms-2/files-2.1/b50185fa55290ee8fccc06303bb8d24e/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+41        <provider
+41-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/linn/.gradle/caches/transforms-2/files-2.1/58629c19fa6c616abd60edc0d2bb07b8/lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+42            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+42-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/linn/.gradle/caches/transforms-2/files-2.1/58629c19fa6c616abd60edc0d2bb07b8/lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+43            android:authorities="com.example.tumplatform.lifecycle-process"
+43-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/linn/.gradle/caches/transforms-2/files-2.1/58629c19fa6c616abd60edc0d2bb07b8/lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+44            android:exported="false"
+44-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/linn/.gradle/caches/transforms-2/files-2.1/58629c19fa6c616abd60edc0d2bb07b8/lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+45            android:multiprocess="true" />
+45-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/linn/.gradle/caches/transforms-2/files-2.1/58629c19fa6c616abd60edc0d2bb07b8/lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+46    </application>
+47
+48</manifest>
