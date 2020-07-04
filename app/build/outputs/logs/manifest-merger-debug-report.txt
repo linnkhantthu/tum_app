@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:2:1-28:12
-INJECTED from /home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:2:1-28:12
-INJECTED from /home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:2:1-28:12
-INJECTED from /home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:2:1-28:12
+ADDED from /home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:2:1-29:12
 MERGED from [com.google.android.material:material:1.1.0] /home/linn/.gradle/caches/transforms-2/files-2.1/5d52d9573d8a8f70a8462cc8f8a42ce9/material-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] /home/linn/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/linn/.gradle/caches/transforms-2/files-2.1/3ec6fa8458ddbe732478393a9f9e6c77/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
@@ -38,20 +38,20 @@ MERGED from [androidx.savedstate:savedstate:1.0.0] /home/linn/.gradle/caches/tra
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/linn/.gradle/caches/transforms-2/files-2.1/8ede11fcab21498f1a0c92e4e5245cc2/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.exifinterface:exifinterface:1.0.0] /home/linn/.gradle/caches/transforms-2/files-2.1/664f4ae009672f8d49f9e02edae5cc02/exifinterface-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/linn/.gradle/caches/transforms-2/files-2.1/78be57497ca2a8dd090798c529f3e53d/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
-INJECTED from /home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:2:1-28:12
-INJECTED from /home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:2:1-28:12
-INJECTED from /home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:2:1-29:12
 	package
 		ADDED from /home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:3:5-38
 		INJECTED from /home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml
 		INJECTED from /home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml
-		ADDED from /home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:2:1-28:12
+		ADDED from /home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:2:1-29:12
 		INJECTED from /home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml
-		ADDED from /home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:2:1-28:12
+		ADDED from /home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:2:1-29:12
 		INJECTED from /home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:2:11-69
@@ -60,7 +60,7 @@ ADDED from /home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidM
 	android:name
 		ADDED from /home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:7:5-26:19
+ADDED from /home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:7:5-27:19
 MERGED from [com.google.android.material:material:1.1.0] /home/linn/.gradle/caches/transforms-2/files-2.1/5d52d9573d8a8f70a8462cc8f8a42ce9/material-1.1.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.1.0] /home/linn/.gradle/caches/transforms-2/files-2.1/5d52d9573d8a8f70a8462cc8f8a42ce9/material-1.1.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/linn/.gradle/caches/transforms-2/files-2.1/3ec6fa8458ddbe732478393a9f9e6c77/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
@@ -92,33 +92,33 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/linn/
 	android:networkSecurityConfig
 		ADDED from /home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:11:9-69
 activity#com.example.tumplatform.MainActivity
-ADDED from /home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:15:9-16:56
+ADDED from /home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:15:9-17:57
 	android:windowSoftInputMode
-		ADDED from /home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:16:13-54
+		ADDED from /home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:17:13-54
 	android:name
-		ADDED from /home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:15:19-47
+		ADDED from /home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:16:13-41
 activity#com.example.tumplatform.CommentActivity
-ADDED from /home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:17:9-53
+ADDED from /home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:18:9-53
 	android:name
-		ADDED from /home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:17:19-50
+		ADDED from /home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:18:19-50
 activity#com.example.tumplatform.Profile
-ADDED from /home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:18:9-45
+ADDED from /home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:19:9-45
 	android:name
-		ADDED from /home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:18:19-42
+		ADDED from /home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:19:19-42
 activity#com.example.tumplatform.LoginActivity
-ADDED from /home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:19:9-25:20
+ADDED from /home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:20:9-26:20
 	android:name
-		ADDED from /home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:19:19-48
+		ADDED from /home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:20:19-48
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:20:13-24:29
+ADDED from /home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:21:13-25:29
 action#android.intent.action.MAIN
-ADDED from /home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:21:17-69
+ADDED from /home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:22:17-69
 	android:name
-		ADDED from /home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:21:25-66
+		ADDED from /home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:23:17-77
+ADDED from /home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from /home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:23:27-74
+		ADDED from /home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:24:27-74
 uses-sdk
 INJECTED from /home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml

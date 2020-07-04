@@ -34,7 +34,7 @@ public class LoginActivity extends AppCompatActivity {
         final EditText email = (EditText)findViewById(R.id.email);
         final EditText password = (EditText)findViewById(R.id.password);
         Button login = (Button)findViewById(R.id.login);
-        final ProgressBar loading = (ProgressBar)findViewById(R.id.loading);
+
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -42,14 +42,14 @@ public class LoginActivity extends AppCompatActivity {
                 str_email = email.getText().toString();
                 String str_password;
                 str_password = password.getText().toString();
-
                 authentication(str_email, str_password);
             }
         });
-
     }
 
     private void authentication(String email, String password){
+        final ProgressBar loading = (ProgressBar)findViewById(R.id.loading);
+        loading.setVisibility(View.VISIBLE);
         sessionManager = new SessionManager(this);
         Retrofit retrofit=new Retrofit.Builder()
                 .baseUrl("https://infinite-anchorage-45437.herokuapp.com")
@@ -63,6 +63,8 @@ public class LoginActivity extends AppCompatActivity {
                 authors = response.body();
                 if (authors == null){
                     Toast.makeText(LoginActivity.this,"Login Failed",Toast.LENGTH_SHORT).show();
+                    //sessionManager.logout();
+                    loading.setVisibility(View.GONE);
                 }
                 else{
                     authors = new ArrayList<>(response.body());
@@ -80,6 +82,7 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onFailure(Call<List<author>> call, Throwable t) {
                 Toast.makeText(LoginActivity.this,"Connection Error",Toast.LENGTH_SHORT).show();
+                loading.setVisibility(View.GONE);
             }
         });
     }

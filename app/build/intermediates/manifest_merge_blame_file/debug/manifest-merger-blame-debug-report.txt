@@ -15,7 +15,7 @@
 11-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:5:22-64
 12
 13    <application
-13-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:7:5-26:19
+13-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:7:5-27:19
 14        android:allowBackup="true"
 14-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:8:9-35
 15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -35,29 +35,29 @@
 23        android:theme="@style/AppTheme" >
 23-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:14:9-40
 24        <activity
-24-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:15:9-16:56
+24-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:15:9-17:57
 25            android:name="com.example.tumplatform.MainActivity"
-25-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:15:19-47
+25-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:16:13-41
 26            android:windowSoftInputMode="stateHidden" />
-26-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:16:13-54
+26-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:17:13-54
 27        <activity android:name="com.example.tumplatform.CommentActivity" />
-27-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:17:9-53
-27-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:17:19-50
+27-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:18:9-53
+27-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:18:19-50
 28        <activity android:name="com.example.tumplatform.Profile" />
-28-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:18:9-45
-28-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:18:19-42
+28-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:19:9-45
+28-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:19:19-42
 29        <activity android:name="com.example.tumplatform.LoginActivity" >
-29-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:19:9-25:20
-29-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:19:19-48
+29-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:20:9-26:20
+29-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:20:19-48
 30            <intent-filter>
-30-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:20:13-24:29
+30-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:21:13-25:29
 31                <action android:name="android.intent.action.MAIN" />
-31-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:21:17-69
-31-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:21:25-66
+31-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:22:17-69
+31-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:22:25-66
 32
 33                <category android:name="android.intent.category.LAUNCHER" />
-33-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:23:17-77
-33-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:23:27-74
+33-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:24:17-77
+33-->/home/linn/MEGAsync/AndroidProjects/TUMPlatform/app/src/main/AndroidManifest.xml:24:27-74
 34            </intent-filter>
 35        </activity>
 36

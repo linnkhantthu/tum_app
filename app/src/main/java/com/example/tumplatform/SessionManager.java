@@ -1,5 +1,6 @@
 package com.example.tumplatform;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -73,9 +74,13 @@ public class SessionManager {
 
         editor.clear();
         editor.commit();
-        Intent i = new Intent(context, LoginActivity.class);
-        context.startActivity(i);
-        ((MainActivity) context).finish();
+        Intent intent = new Intent(context, LoginActivity.class);
+        context.startActivity(intent);
+        ((LoginActivity) context).finish();
+
+        //Intent i = new Intent(context, LoginActivity.class);
+        //context.startActivity(i);
+        //((MainActivity) context).finish();
 
     }
 
